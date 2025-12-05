@@ -1,11 +1,11 @@
 .start-panel {
     display: grid;
-    grid-template-columns: 50px 200px 1fr;
+    grid-template-columns: 50px minmax(185px, auto) 1fr;
     gap: 5px;
 }
 .start-panel__icons {
     display: grid;
-    grid-template-rows: 1fr repeat(5, 50px);
+    grid-template-rows: 1fr;
 }
 .start-panel__grid {
     display: grid;
